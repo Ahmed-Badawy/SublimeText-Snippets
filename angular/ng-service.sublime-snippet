@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+${1:myApp}.factory('${2:service_name}',function(\$resource){
+	var response = \$resource('url/:pram', {} , {
+		action: {method:'GET', prams:{pram:"@pram"} },
+	});
+	return response;
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ng-s</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

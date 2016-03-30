@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+	public function actors_rate(){
+		\$data = [
+			'route_info'=>\sr::projects(""),
+			"ng_app"=>"myApp",
+			'ng_controller'=>"",
+			'theme'=>\$this->themes[0],
+		];
+		return \$this->get_view("",\$data); 
+	}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>lar-n-page</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

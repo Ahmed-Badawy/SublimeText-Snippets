@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+		
+var site_base = "../ng-temp/projects/recipes/";
+var partial_base = "../ng-temp/projects/recipes/partials/";
+myApp.config(function(\$routeProvider){
+	\$routeProvider
+	.when('/',{
+		redirectTo: "/postalcodes",
+	})
+	.when('/postaloffices',{
+		templateUrl:"postal/offices",
+		controller:"postal_offices",
+	})	
+	.when("/postalcodes",{ 
+		templateUrl:"postal/codes",
+		controller:"postal_codes",
+	})
+	.otherwise({
+		redirectTo:"/",
+	})
+})
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ng-route</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

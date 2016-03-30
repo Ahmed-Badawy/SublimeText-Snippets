@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+  <div class="form-group">
+      <label for="${2:label}">${1:label}</label>
+      <input type="${4:text}" class="form-control" name="${3:label}" id="${2:label}" placeholder="${5:label}">
+  </div>
+  ${6}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>binput</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/earlyaccess/notokufiarabic.css' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+		body{
+			font-family: 'Open Sans','Lato', Helvetica, sans-serif;
+			color:#222;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		}
+		.arabic{
+		    font-family: 'Noto Kufi Arabic', serif;
+		    line-height: 1.5em;
+		}
+		.english{
+			font-family: 'Open Sans','Lato', Helvetica, sans-serif;
+		}
+    </style>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cdnFonts</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

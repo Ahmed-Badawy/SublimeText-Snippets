@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+public function ${1:function_name}(${3}){
+	${2:code};
+}
+${5}
+]]></content>
+	<tabTrigger>fnp</tabTrigger>
+</snippet>
