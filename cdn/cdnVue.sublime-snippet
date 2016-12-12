@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.4/vue.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.0.3/vue-resource.min.js"></script>
+
+	<script type="text/javascript">
+		Vue.http.options.emulateJSON = true;
+		Vue.http.options.emulateHTTP = true;
+
+		new Vue({
+			el : "#root",
+			data : {
+				message : "Data Binding Is Working"
+			},
+			methods : {
+					//this.$http.post('1.php',{p1:"one",p2:"two"}).then(response=>console.log(response), err=>console.log(err));
+				}				
+			},
+			computed : { 
+
+			}			
+		})
+	</script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cdnVue</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

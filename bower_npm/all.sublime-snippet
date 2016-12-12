@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+	<script type="text/javascript" src='bower_components/jquery/dist/jquery.min.js'></script>
+	<script type="text/javascript" src='bower_components/bootstrap/dist/js/bootstrap.min.js'></script>
+	<link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">
+
+	<script type="text/javascript" src='bower_components/angular/angular.min.js'></script>
+
+	<script type="text/javascript" src='bower_components/vue/dist/vue.min.js'></script>
+	<script type="text/javascript" src='bower_components/vue-resource/dist/vue-resource.min.js'></script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bowerAll</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

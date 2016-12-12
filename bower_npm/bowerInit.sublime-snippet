@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+    "vue": "2.1.4",
+    "vue-resource": "1.0.3",
+    "angular": "1.6.0",
+    "jquery": "3.1.1",
+    "bootstrap": "3.3.7",
+    "font-awesome": "fontawesome#4.7.0"
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bowerInit</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+	<script type="text/javascript" src='bower_components/vue/dist/vue.min.js'></script>
+	<script type="text/javascript" src='bower_components/vue-resource/dist/vue-resource.min.js'></script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bowerVue</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
