@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+	${1:<script type="text/javascript">}
+		Vue.http.options.emulateJSON = true;
+		Vue.http.options.emulateHTTP = true;
+
+		new Vue({
+			el : "#root",
+			data : {
+				message : "Data Binding Is Working"
+			},
+			methods : {
+					//this.\$http.post('1.php',{p1:"one",p2:"two"}).then(response=>console.log(response), err=>console.log(err));
+				}				
+			},
+			computed : { 
+
+			}			
+		})
+	${2:</script>}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>init_vue</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
