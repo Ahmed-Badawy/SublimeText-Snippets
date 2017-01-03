@@ -10,8 +10,7 @@
 				message : "Data Binding Is Working"
 			},
 			methods : {
-					//this.\$http.post('1.php',{p1:"one",p2:"two"}).then(response=>console.log(response), err=>console.log(err));
-				}				
+					//this.\$http.post('1.php',{p1:"one",p2:"two"}).then(response=>console.log(response), err=>console.log(err)) }				
 			},
 			computed : { 
 
